@@ -1,6 +1,5 @@
 function mergeSort(array) {
     const low = 0; //the first of the array
-    const high = array.length - 1; //the last of the array
 
     if (array.length <= 1) { //If we can't split the subarrays anymore, we start the sorting & merging
         return array;
